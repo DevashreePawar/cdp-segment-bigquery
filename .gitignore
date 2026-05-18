@@ -1,0 +1,39 @@
+# Secrets & Credentials
+*.json
+.env
+.env.local
+.env.*.local
+segment-bigquery-*.json
+dulcet-asset-*.json
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node & Package Management
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
