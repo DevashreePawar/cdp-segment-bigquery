@@ -212,11 +212,11 @@ See `docs/06-EVENT_TRACKING_SDK.md` for more examples.
 ### Key Credentials (DO NOT COMMIT)
 
 ```
-Segment Write Key: l7Er9ob0u8GNHa09uRPmExoyCnCgEcNU
-GCP Project ID: dulcet-asset-496701-i9
-BigQuery Dataset: segment_events
-BigQuery Table: events
-Service Account Email: segment-writer@dulcet-asset-496701-i9.iam.gserviceaccount.com
+Segment Write Key: <your-segment-write-key>
+   GCP Project ID: <your-gcp-project-id>
+   BigQuery Dataset: segment_events
+   BigQuery Table: events
+   Service Account Email: <service-account>@<project>.iam.gserviceaccount.com
 ```
 
 ⚠️ **Security:** Service account JSON keys are git-ignored. Store securely in:
